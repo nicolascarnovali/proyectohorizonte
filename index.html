@@ -3,57 +3,64 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Horizonte Inmobiliario</title>
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
         <link rel="stylesheet" href="./css/style.css">
         <script src="https://kit.fontawesome.com/4b8582377d.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="./css/all.css">
+        <link rel="stylesheet" href="./css/all.min.css">
     </head>
     <body>
         <header class="header">
-            <a class="logo" href="index.html"><img class="logo" src="assets/images/Untitled.png" alt="logo tu hogar"></a>
-            <nav class="navegacion">
-                <ul>
-                    <li class="listaitem"><a class="anclasNav" href="#">Inicio</a></li>
-                    <li class="listaitem"><a class="anclasNav" href="pages/Descubre.html">Descubre </a> </li>
-                    <li class="listaitem"><a class="anclasNav" href="pages/Ambienta.html">Ambienta </a> </li>
-                    <li class="listaitem"><a class="anclasNav" href="pages/Nosotros.html">Nosotros </a> </li>
-                    <li class="listaitem"><a class="anclasNav" href="pages/Contacto.html">Contacto </a> </li>
-
-                </ul>
+            <!-- en todos los html aplicado bootstrap en el navbar -->
+            <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
+                <a class="logo" href="index.html"><img class="logo" src="assets/images/Untitled.png" alt="logo tu hogar"></a>
+                <div class="container-fluid color__nav">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Inicio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./pages/Descubre.html">Descubre</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./pages/Ambienta.html">Ambienta</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./pages/Nosotros.html">Nosotros</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./pages/Contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </header>
         <main class="main">
             <div>
-                <!-- Este h1 se va a repetir siempre, ya que mi logo-->
                 <h1 class="h1s">Busca y encuentra</h1>
                 <br>
                 <h2 class="h2">¿Que esperas para hacerte con alguna de estas?</h2>
-                <br>
-                <br>
-                <br>
-                <p>Preview casa2</p>
-                <br>
-                <br>
-                <br>
-                <p>Preview casa3</p>
-                <br>
-                <br>
-                <br>
-                <p>Preview casa4</p>
-                <br>
-                <br>
-                <br>
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <img src="./assets/images/1.jpg" class="d-block w-100"" alt="casa1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/2.jpg" class="d-block w-100" alt="casa2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/3.jpg" class="d-block w-100" alt="casa3">
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
             </div>
-            <div>
-                <h2 class="h2">¿Buscas alguna opción para el verano?</h2>
-                <br>
-                <br>
-                <br>
-                <img class="preview" src="assets/images/3333.jpg" alt="casa3">
-            </div>
-            <h2>Las imágenes anteriores son algunas de las casas que te ofrecemos, pero tambien escuchamos las propuestas creativas de los clientes y les intentamos ofrecer lo que nos piden</h2>
-            
         </main>
         <footer class="footer">
             <nav class="navRedes">
@@ -63,7 +70,8 @@
                     <li class="liRedes"><a class="redesSociales" target="_blank" href="https://www.twitter.com"><i class="fa-brands fa-twitter fa-2x"></i></a></li>
                 </ul>
             </nav>
-            <p class="copyright">© 2023-2023 Horizonte Inmobiliario</p>
+            <p class="copyright">© 2023 Horizonte Inmobiliario</p>
         </footer>
+        <script src="js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
