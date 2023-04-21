@@ -5,52 +5,89 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Horizonte Inmobiliario</title>
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/style.css">
         <script src="https://kit.fontawesome.com/4b8582377d.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="./css/all.css">
+        <link rel="stylesheet" href="../css/all.min.css">
     </head>
     <body>
         <header class="header">
-            <a class="logo" href="../index.html"><img class="logo" src="../assets/images/Untitled.png" alt="logo tu hogar"></a>
-            <nav class="navegacion">
-                <ul>
-                    <li class="listaitem"><a class="anclasNav" href="../index.html">Inicio</a> </li>
-                    <li class="listaitem"><a class="anclasNav" href="Descubre.html">Descubre </a> </li>
-                    <li class="listaitem"><a class="anclasNav" href="Ambienta.html">Ambienta </a> </li>
-                    <li class="listaitem"><a class="anclasNav" href="#">Nosotros </a> </li>
-                    <li class="listaitem"><a class="anclasNav" href="Contacto.html">Contacto </a> </li>
-
-                </ul>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="logo" href="../index.html"><img class="logo" src="../assets/images/Untitled.png" alt="logo tu hogar"></a>
+                <div class="container-fluid color__nav">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./Descubre.html">Descubre</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./Ambienta.html">Ambienta</a></li>
+                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Nosotros</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./Contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </header>
-        <main class="main">
+        <main class="">
             <h1 class="h1s">Nosotros</h1>
-            <p>Somos un equipo que trabaja para satisfacer las necesidades de nuestros clientes</p>
-            <p>En nuestro sitio vas a encontrar la casa de tus sueños y la vas a poder transformar a tu gusto y amoldarla para que sea tu hogar soñado</p>
+            <p>Somos un equipo que trabaja para satisfacer las necesidades de nuestros clientes, ofreciendo casas de todo tipo para que puedas encontrar la tuya.</p>
+            <p>En nuestro sitio la vas a poder transformar a tu gusto y amoldarla para que sea tu hogar soñado</p>
             <p>Somos los mejores, y cada uno de los integrantes en nuestro equipo es el mejor en lo que hace</p>
             <div>
                 <h2>¿Deseas conocer a nuestro equipo?</h2>
                 <h3>A continuación, te presentamos a cada uno de nuestros integrantes</h3>
-                <br>
-                <br>
-                <br>
-                <p>Integrante 1</p>
-                <br>
-                <br>
-                <br>  
-                <p>Integrante 2</p>
-                <br>
-                <br>
-                <br>
-                <p>Integrante 3</p>
-                <br>
-                <br>
-                <br>
-                <p>Integrante 4</p>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="../assets/images/Ernesto Gomez.jpg" alt="Ernesto">
+                                <div class="card-body">
+                                    <h5 class="card-title">Ernesto Gomez</h5>
+                                    <p class="card-text">Él administra todos los terrenos y casas que publicamos, es de suma confianza e importancia para el equipo</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="../assets/images/Daniela Fernandez.jpg" alt="Daniela">
+                                <div class="card-body">
+                                    <h5 class="card-title">Daniela Fernandez</h5>
+                                    <p class="card-text">Es el cerebro del equipo, sabe en que momento y cómo se hacen las cosas, con su experiencia todo es más fácil</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="../assets/images/Juan Lopez.jpg" alt="Juan">
+                                <div class="card-body">
+                                    <h5 class="card-title">Juan Lopez</h5>
+                                    <p class="card-text">Él es con quien vas a contactar, va a estar a tu disposición para satisfacer tus necesidades y e inquietudes</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="../assets/images/Rita Baez.jpg" alt="Rita">
+                                <div class="card-body">
+                                    <h5 class="card-title">Rita Baez</h5>
+                                    <p class="card-text">Si hay una persona que sabe transformar tu casa en un hogar cómodo, definitivamente es ella</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="footer">
-            <p class="copyright">© 2023-2023 Horizonte Inmobiliario </p>
+            <nav class="navRedes">
+                <ul>
+                    <li class="liRedes"><a class="redesSociales" target="_blank" href="https://www.instagram.com"><i class="fa-brands fa-instagram fa-2x"></i></a></li>
+                    <li class="liRedes"><a class="redesSociales" target="_blank" href="https://www.facebook.com"><i class="fa-brands fa-facebook fa-2x"></i></a></li>
+                    <li class="liRedes"><a class="redesSociales" target="_blank" href="https://www.twitter.com"><i class="fa-brands fa-twitter fa-2x"></i></a></li>
+                </ul>
+            </nav>
+            <p class="copyright">© 2023 Horizonte Inmobiliario</p>
         </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
