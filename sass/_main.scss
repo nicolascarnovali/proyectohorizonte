@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    background-color: $colorBody;
+    font-family: 'Poppins', sans-serif;
+
+    .main__index {
+        div {
+            .h1s {
+                margin-top: 5vh;
+                text-align: center;
+                color: rgb(0, 0, 0);
+            }
+
+            .h2s {
+                text-align: center;
+                color: rgb(0, 0, 0);
+            }
+
+            .h3s {
+                color: rgb(0, 0, 0);
+                font-size: 23px;
+                margin: auto;
+            }
+
+            .carousel-inner {
+                width: 100%;
+            }
+
+            .ancla__preview {
+                .preview {
+                    width: 30%;
+                    margin-bottom: 2vh;
+                    margin-top: 2vh;
+                    align-items: center;
+                    justify-content: center;
+                    border: 2px solid transparent;
+                        &:hover {
+                        border: 2px solid red
+                    }
+                }
+            }
+        }
+    }
+
+    .main__descubre {
+        .h1s {
+            margin-top: 5vh;
+            text-align: center;
+            color: rgb(0, 0, 0);
+        }
+
+        .h2s {
+            text-align: center;
+            color: rgb(0, 0, 0);
+        }
+
+        .parrafo {
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+
+        .container {
+            .centrado {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .card {
+                    margin-top: 2vh;
+                    margin-bottom: 2vh;
+                }
+            }
+        }
+    }
+
+    .main__ambienta {
+        .ambientar {
+            margin: auto;
+            width: 70%;
+            display: flex;
+
+        }
+    }
+
+    .main__nosotros {
+        .cards__nosotros {
+            div {
+                div {
+                    div {
+                        .card {
+                            margin-top: 10vh;
+                            margin-bottom: 5vh;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .main__contacto {
+        .formulario {
+            .partesform {
+                border: 2px solid rgb(255, 153, 0);
+                display: inline-block;
+                width: 50%;
+                height: 2rem;
+                margin-left: 0;
+                margin-top: 1vh;
+                margin-bottom: 1vh;
+
+            }
+
+            .botonesForm {
+                width: 50%;
+                margin-left: 0%;
+                flex-direction: row;
+                flex-wrap: wrap;
+                margin-top: 1vh;
+                margin-bottom: 1vh;
+            }
+        }
+    }
+}
