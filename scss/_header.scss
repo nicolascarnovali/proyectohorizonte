@@ -1,0 +1,18 @@
+body{
+    .header{
+        margin-top: 0px;
+        background-color: $colorHeader;
+        .nabvar{
+            font-size: 19px;
+            .logo{
+                margin-top: 0px;
+                margin-left: 0px;
+                text-align: center;
+            
+            }
+            .color__nav{
+                background-color: rgb(255, 214, 152);
+            }
+        }
+    }
+}

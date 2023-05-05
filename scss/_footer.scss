@@ -1,0 +1,26 @@
+body{
+    .footer{
+        background-color: $colorFooter;
+        margin-bottom: 0;
+        position: absolute;
+        width: 100%; 
+        .navRedes{
+            text-align: center;
+            ul{
+                .liRedes{
+                    display: inline-block;
+                    text-decoration: none;
+                    margin-top: 2vh;
+                    .redesSociales{
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+            }
+        }
+        
+        .copyright{
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,128 @@
+/* colores*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+body .header {
+  margin-top: 0px;
+  background-color: rgb(255, 214, 152);
+}
+body .header .nabvar {
+  font-size: 19px;
+}
+body .header .nabvar .logo {
+  margin-top: 0px;
+  margin-left: 0px;
+  text-align: center;
+}
+body .header .nabvar .color__nav {
+  background-color: rgb(255, 214, 152);
+}
+
+body {
+  background-color: rgb(255, 233, 200);
+  font-family: "Poppins", sans-serif;
+}
+body .main__index div .h1s {
+  margin-top: 5vh;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+body .main__index div .h2s {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+body .main__index div .h3s {
+  color: rgb(0, 0, 0);
+  font-size: 23px;
+  margin: auto;
+}
+body .main__index div .carousel-inner {
+  width: 100%;
+}
+body .main__index div .ancla__preview .preview {
+  width: 30%;
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid transparent;
+}
+body .main__index div .ancla__preview .preview:hover {
+  border: 2px solid red;
+}
+body .main__descubre .h1s {
+  margin-top: 5vh;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+body .main__descubre .h2s {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+body .main__descubre .parrafo {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+body .main__descubre .container .centrado {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .main__descubre .container .centrado .card {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+body .main__ambienta .ambientar {
+  margin: auto;
+  width: 70%;
+  display: flex;
+}
+body .main__nosotros .cards__nosotros div div div .card {
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+}
+body .main__contacto .formulario .partesform {
+  border: 2px solid rgb(255, 153, 0);
+  display: inline-block;
+  width: 50%;
+  height: 2rem;
+  margin-left: 0;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+body .main__contacto .formulario .botonesForm {
+  width: 50%;
+  margin-left: 0%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+body .footer {
+  background-color: rgb(255, 214, 152);
+  margin-bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+body .footer .navRedes {
+  text-align: center;
+}
+body .footer .navRedes ul .liRedes {
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 2vh;
+}
+body .footer .navRedes ul .liRedes .redesSociales {
+  text-decoration: none;
+  color: black;
+}
+body .footer .copyright {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=estilos.css.map */
