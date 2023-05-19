@@ -1,0 +1,21 @@
+@mixin titulo($top, $bottom, $center)
+{
+    margin-top: $top;
+    margin-bottom: $bottom;
+    text-align: $center;
+}
+
+@mixin parrafo($center, $mright, $mleft, $justify)
+{
+    justify-content: $center;
+    margin-right: $mright;
+    margin-left: $mleft;
+    text-align: $justify;
+}
+
+@mixin subtitulo($center, $mtop, $mbottom)
+{
+    text-align: $center;
+    margin-top: $mtop;
+    margin-bottom: $mbottom;
+}

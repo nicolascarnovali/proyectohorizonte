@@ -1,0 +1,26 @@
+.main__nosotros {
+    .h1s {
+        @include titulo(4vh, 7vh, center)
+    }
+
+    .h2s {
+        @include subtitulo(center, 4vh, 4vh)
+    }
+
+    .p {
+        @include parrafo(center, 15px, 15px, justify)
+    }
+
+    .cards__nosotros {
+        .container {
+            div {
+                div {
+                    .card {
+                        margin-top: 10vh;
+                        margin-bottom: 5vh;
+                    }
+                }
+            }
+        }
+    }
+}

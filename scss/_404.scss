@@ -1,0 +1,15 @@
+.error404{
+    height: 80vh;
+    .div__error404{
+        justify-content: center;
+        display: flex;
+        margin-top: 5%;
+        .h1s {
+            @include titulo(4vh, 7vh, center)
+        }
+    
+        .h2s {
+            @include subtitulo(center, 4vh, 4vh)
+        }
+    }
+}

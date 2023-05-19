@@ -1,0 +1,26 @@
+.main__descubre {
+    .h1s {
+        @include titulo(4vh, 7vh, center)
+    }
+
+    .h2s {
+        @include subtitulo(center, 4vh, 4vh)
+    }
+
+    .p {
+        @include parrafo(center, 15px, 15px, justify)
+    }
+
+    .container {
+        .centrado {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .card {
+                margin-top: 4vh;
+                margin-bottom: 4vh;
+            }
+        }
+    }
+}

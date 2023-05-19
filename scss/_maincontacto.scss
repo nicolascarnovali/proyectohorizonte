@@ -1,0 +1,60 @@
+.main__contacto {
+    .h1s {
+        @include titulo(4vh, 7vh, center)
+    }
+
+    .h2s {
+        @include subtitulo(center, 4vh, 4vh)
+    }
+
+    .formularios {
+        .h2s {
+            @include subtitulo(center, 4vh, 4vh)
+        }
+
+        .div__form__container {
+            border: 3px solid $rojo;
+            align-items: center;
+            width: 75%;
+            background-image: url(../assets/images/fondo\ forms.jpg);
+            background-size: cover;
+            justify-content: center;
+            margin: auto;
+            padding-bottom: 2vh;
+            padding-top: 2vh;
+
+            .div__form {
+                .partesform {
+                    border: 2px solid $labels;
+                    display: flex;
+                    width: 60%;
+                    height: 2rem;
+                    margin: auto;
+                    margin-top: 3vh;
+                    margin-bottom: 3vh;
+                }
+
+                .label__form {
+                    margin: auto;
+                    display: flex;
+                    width: 35%;
+                    align-items: center;
+                    justify-content: center;
+                    color: rgb(255, 255, 255);
+                }
+
+                .botonesForm {
+                    display: flex;
+                    width: 60%;
+                    margin: auto;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    margin-top: 2vh;
+                    margin-bottom: 2vh;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}

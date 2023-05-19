@@ -1,0 +1,37 @@
+.main__casas {
+    .h1s {
+        @include titulo(4vh, 7vh, center)
+    }
+
+
+    .container-fluid{
+        width: 80%;
+    }
+
+    hr{
+        height: 3px;
+        width: 75%;
+        align-items: center;
+        justify-content: center;
+        margin: 3vh auto;
+        color: black;
+        opacity: 75%;
+    }
+    
+    .div__distribucion{
+        .h2s {
+            @include subtitulo(center, 4vh, 4vh)
+        }
+
+        .h3s {
+            color: rgb(0, 0, 0);
+            margin-left: 10px;
+            margin-top: 4vh;
+            margin-bottom: 4vh;
+        }
+
+        .p {
+            @include parrafo(center, 25px, 25px, justify)
+        }
+    }
+}

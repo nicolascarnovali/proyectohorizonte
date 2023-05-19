@@ -1,0 +1,17 @@
+.main__ambienta {
+    .h1s {
+        @include titulo(4vh, 7vh, center)
+    }
+
+    .p {
+        @include parrafo(center, 15px, 15px, justify)
+    }
+
+    .ambientar {
+        margin: auto;
+        width: 75%;
+        display: flex;
+        margin-top: 4vh;
+        margin-bottom: 4vh;
+    }
+}
