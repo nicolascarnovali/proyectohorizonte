@@ -31,7 +31,7 @@ body {
   text-decoration: none;
   font-size: 20px;
   margin-top: 3vh;
-  transition: transform 1.7s ease-in-out;
+  transition: transform 1.5s ease-in-out;
 }
 .footer .navRedes ul .liRedes__instagram:hover, .footer .navRedes ul .liRedes__twitter:hover, .footer .navRedes ul .liRedes__facebook:hover {
   transform: rotate(360deg);
@@ -117,19 +117,20 @@ body {
   margin-top: 4vh;
   margin-bottom: 7vh;
   text-align: center;
-  font-size: 34px;
+  font-size: 28px;
 }
 .main__index div .h2s {
   text-align: center;
   margin-top: 4vh;
   margin-bottom: 4vh;
-  font-size: 30px;
+  font-size: 24px;
 }
 .main__index div .h3s {
   color: rgb(0, 0, 0);
   margin-top: 4vh;
   margin-bottom: 4vh;
   text-align: center;
+  font-size: 22px;
 }
 .main__index div .carousel-inner {
   width: 100%;

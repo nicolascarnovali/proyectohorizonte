@@ -8,11 +8,11 @@
 
     div {
         .h1s {
-            @include titulo(4vh, 7vh, center, 34px)
+            @include titulo(4vh, 7vh, center, 28px)
         }
 
         .h2s {
-            @include subtitulo(center, 4vh, 4vh, 30px)
+            @include subtitulo(center, 4vh, 4vh, 24px)
         }
 
         .h3s {
@@ -20,6 +20,7 @@
             margin-top: 4vh;
             margin-bottom: 4vh;
             text-align: center;
+            font-size: 22px;
         }
 
         .carousel-inner {
