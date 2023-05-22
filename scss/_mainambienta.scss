@@ -1,6 +1,6 @@
 .main__ambienta {
     .h1s {
-        @include titulo(4vh, 7vh, center)
+        @include titulo(4vh, 7vh, center, 34px)
     }
 
     .p {
@@ -13,5 +13,6 @@
         display: flex;
         margin-top: 4vh;
         margin-bottom: 4vh;
+        border: 3px solid map-get($colores, rojo);
     }
 }

@@ -8,11 +8,11 @@
 
     div {
         .h1s {
-            @include titulo(4vh, 7vh, center)
+            @include titulo(4vh, 7vh, center, 34px)
         }
 
         .h2s {
-            @include subtitulo(center, 4vh, 4vh)
+            @include subtitulo(center, 4vh, 4vh, 30px)
         }
 
         .h3s {
@@ -40,7 +40,7 @@
                 transition-duration: 1.7s;
 
                 &:hover {
-                    border: 4px solid $rojo;
+                    border: 3px solid map-get($colores, rojo);
                 }
             }
         }

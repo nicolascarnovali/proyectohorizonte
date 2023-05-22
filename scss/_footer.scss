@@ -17,6 +17,10 @@
                 text-decoration: none;
                 font-size: 20px;
                 margin-top: 3vh;
+                transition: transform 1.7s ease-in-out;
+                &:hover{
+                    transform: rotate(360deg);
+                }
 
                 .instagram {
                     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
@@ -40,6 +44,7 @@
 
             .liRedes__twitter {
                 @extend .liRedes__instagram;
+                transition: transform 1.7s ease-in-out;
 
                 .twitter {
                     text-decoration: none;

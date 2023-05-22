@@ -1,8 +1,9 @@
-@mixin titulo($top, $bottom, $center)
+@mixin titulo($top, $bottom, $center, $px)
 {
     margin-top: $top;
     margin-bottom: $bottom;
     text-align: $center;
+    font-size: $px;
 }
 
 @mixin parrafo($center, $mright, $mleft, $justify)
@@ -13,9 +14,10 @@
     text-align: $justify;
 }
 
-@mixin subtitulo($center, $mtop, $mbottom)
+@mixin subtitulo($center, $mtop, $mbottom, $px)
 {
     text-align: $center;
     margin-top: $mtop;
     margin-bottom: $mbottom;
+    font-size: $px;
 }
